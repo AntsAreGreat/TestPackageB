@@ -1,11 +1,15 @@
 Package: TestPackageB
 Title: What the Package Does (One Line, Title Case)
-Version: 0.0.0.9000
+Version: 0.0.0.9001
 Authors@R: 
     person("First", "Last", , "first.last@example.com", role = c("aut", "cre"))
 Description: What the package does (one paragraph).
 License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
     license
 Encoding: UTF-8
+Imports:
+    TestPackageC
+Remotes:
+    git::git@github.com:AntsAreGreat/TestPackageC
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 8.1.0
